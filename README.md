@@ -1,3 +1,7 @@
+ATTENTION: Development of this project has moved to: https://github.com/bnotions/twoscoops-chef
+
+
+
 twoscoops Cookbook
 ==================
 TODO: Enter the cookbook description here.
