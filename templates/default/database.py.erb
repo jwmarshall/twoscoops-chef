@@ -1,0 +1,10 @@
+DATABASES = {
+    'default': {
+        'ENGINE': '<%= node['twoscoops']['database']['engine'] %>',
+        'NAME': '<%= node['twoscoops']['application_name'] %>',
+        'USER': '<%= node['twoscoops']['database']['username'] %>',
+        'PASSWORD': '<%= node['twoscoops']['database']['password'] %>',
+        'HOST': '<%= node['twoscoops']['database']['host'] %>',
+        'PORT': '<%= node['twoscoops']['database']['port'] %>',
+    }
+}
