@@ -9,7 +9,7 @@
 
 include_recipe "twoscoops::local"
 
-execute "pip-install-requirements" do
+execute "pip-install-test-requirements" do
   cwd "/vagrant"
   command "pip install -r requirements/test.txt"
 end
